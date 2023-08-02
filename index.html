@@ -6,22 +6,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
+    /* group selector  highest prefernce   */
+   .myline,span{
+      color:red;
+    }
+    /* class selector second highest prefernce */
+    .myline{
+      color:orange
+    }
+    /* id selector least preference */
+    para1{
+      color:blue;
+    }
+    
     /* element selector */
     p{
       color:green;
     }
-    /* id selector */
-    para1{
-      color:blue;
-    }
-    /* class selector highest prefernce */
-    .myline{
-      color:orange
-    }
-    /* group selector */
-    para1,span{
-      color:red;
-    }
+    
+    
   </style>
 </head>
 <body>
